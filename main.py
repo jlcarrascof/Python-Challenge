@@ -10,3 +10,12 @@ print(last_name)
 full_name = first_name + ' ' + last_name
 print(full_name)
 
+# int, float, string, bool
+age = 30
+score = 7.8
+active = True
+
+print(age)
+print(score)
+print(active)
+
