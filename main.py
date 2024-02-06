@@ -19,3 +19,8 @@ print(age)
 print(score)
 print(active)
 
+result = type(first_name)
+print(result)
+
+VERSION = 3.11
+print(VERSION)
