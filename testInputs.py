@@ -5,11 +5,19 @@ print('Se ingresó por teclado: ' + result)
 print(type(result))
 
 name = input('Ingresa tu nombre: ')
-age = input('Ingresa tu edad: ')
-score = input('Ingresa tu calificación: ')
-active = input('El usuario se encuentra activo?: ')
+age = int(input('Ingresa tu edad: '))
+score = float(input('Ingresa tu calificación: '))
+active = input('El usuario se encuentra activo? (si/no): ') == 'si'
 
-print('Nombre: ' + name)
-print('Edad: ' + age)
-print('Calificación: ' + score)
-print('Activo: ' + active)
+print(name)
+print(age)
+print(score)
+print(active)
+
+# int, float, string, bool
+
+print (type(name), type(age), type(score), type(active))
+
+print (type(str(10)))
+
+# Operadores relacionales (==, !=, <, >, <=, >=)
