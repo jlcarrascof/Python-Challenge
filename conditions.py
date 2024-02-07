@@ -17,4 +17,17 @@ if age >= 0 and age <= 110:
 
 else:
     print('>>> La edad no es válida, intenta de nuevo (min: 0, max: 110)')
-    
+
+color = 'blue'
+
+if color == 'green':
+    print('Puede continuar')
+else:
+    if color == 'yellow':
+        print('Alto parcial')
+    else:
+        if color == 'red':
+            print('Alto total')
+        else:
+            print('No reconozco el color')
+
