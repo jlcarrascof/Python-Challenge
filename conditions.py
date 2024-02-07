@@ -43,3 +43,18 @@ elif color == 'red':
     print('Alto total')
 else:
     print('No reconozco el color')
+
+
+# Match (Switch)
+color = 'green'
+
+match color:
+    case 'green':
+        print('Puede continuar')
+    case 'yellow':
+        print('Alto parcial')
+    case 'red':
+        print('Alto total')
+    case _:
+        print('No reconozco el color')
+
