@@ -31,3 +31,15 @@ else:
         else:
             print('No reconozco el color')
 
+# A better option
+
+color = 'green'
+
+if color == 'green':
+    print('Puede continuar')
+elif color == 'yellow':
+    print('Alto parcial')
+elif color == 'red':
+    print('Alto total')
+else:
+    print('No reconozco el color')
