@@ -1,3 +1,5 @@
+# CodigoFacilito Challenge 2: Registro de usuarios
+
 # Itera sobre el número de usuarios a registrar
 for i in range(0, num_users):
     print("Registro del usuario:", i+1)
