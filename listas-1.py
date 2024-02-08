@@ -8,5 +8,9 @@ new_courses = ['Java9', 'Docker', 'Unix']
 
 courses.extend(new_courses)
 
+courses.remove('Python')
+courses.remove('Django')
+courses.remove('Flask')
+
 print(courses)
 print(courses[-1])
