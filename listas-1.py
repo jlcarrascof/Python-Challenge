@@ -1,7 +1,8 @@
 # Listas - Estructuras de Datos.
 
-my_list = [1, 3.14, 'String', True, [2, 3.111, 'Example', False]]
+# Indices      0        1        2        3        4
+courses = ['Python', 'Django', 'Flask', 'Ruby', 'Ruby on Rails']
 
-print(my_list)
-
-print(type(my_list))
+last_index = len(courses) - 1
+print(courses[last_index])
+print(last_index)
