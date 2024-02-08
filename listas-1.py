@@ -9,5 +9,7 @@ courses.append('JavaScript')
 courses.append('TypeScript')
 courses.append('Swift')
 
+courses.insert(1, 'SQL Server')
+
 print(courses)
 print(courses[-1])
