@@ -4,5 +4,5 @@
 #                                         -4       -3             -2      -1  
 courses = ['Python', 'Django', 'Flask', 'Ruby', 'Ruby on Rails', 'Rust', 'C#']
 
-new_list = courses[3:0] 
+new_list = courses[3:] 
 print(new_list)
