@@ -13,4 +13,4 @@ courses.remove('Flask')
 courses.remove('C#')
 
 print(courses)
-print(courses.count('Rust'))
+print('Laravel' in courses)
