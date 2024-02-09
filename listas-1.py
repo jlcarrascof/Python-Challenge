@@ -6,9 +6,6 @@
 courses = ['Python', 'Django', 'Flask', 'Ruby', 'Ruby on Rails', 'Rust', 'C#']
 new_courses = ['Java9', 'Docker', 'Unix']
 
-courses.extend(new_courses)
-
-value = 'Java9'
-
-courses.clear()
-print(courses)
+for course in courses:
+    print(course)
+       
