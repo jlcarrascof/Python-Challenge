@@ -6,7 +6,5 @@
 courses = ['Python', 'Django', 'Flask', 'Ruby', 'Ruby on Rails', 'Rust', 'C#']
 new_courses = ['Java9', 'Docker', 'Unix']
 
-for course in new_courses:
-    courses.append(course)
-
-print(courses)
+for index, course in enumerate(courses):
+    print('El valor para el indice', index, 'es', course)
