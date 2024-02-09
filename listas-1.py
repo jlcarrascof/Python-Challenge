@@ -6,6 +6,7 @@
 courses = ['Python', 'Django', 'Flask', 'Ruby', 'Ruby on Rails', 'Rust', 'C#']
 new_courses = ['Java9', 'Docker', 'Unix']
 
-for course in courses:
-    print(course)
-       
+for course in new_courses:
+    courses.append(course)
+
+print(courses)
