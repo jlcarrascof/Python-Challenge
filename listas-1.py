@@ -12,5 +12,8 @@ courses.remove('Python')
 courses.remove('Flask')
 courses.remove('C#')
 
-print(courses)
 print('Laravel' in courses)
+print(courses.count('Laravel') >= 1)
+
+print(courses.index('Java9'))
+print(courses)
