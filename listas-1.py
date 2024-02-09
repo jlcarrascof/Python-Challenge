@@ -6,5 +6,5 @@
 courses = ['Python', 'Django', 'Flask', 'Ruby', 'Ruby on Rails', 'Rust', 'C#']
 new_courses = ['Java9', 'Docker', 'Unix']
 
-for index, course in enumerate(courses):
-    print('El valor para el indice', index, 'es', course)
+for index, character in enumerate('Hola mundo'):
+    print(index, character)
