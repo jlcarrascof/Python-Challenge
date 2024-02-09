@@ -8,12 +8,9 @@ new_courses = ['Java9', 'Docker', 'Unix']
 
 courses.extend(new_courses)
 
-courses.remove('Python')
-courses.remove('Flask')
-courses.remove('C#')
+value = 'Java9'
 
-print('Laravel' in courses)
-print(courses.count('Laravel') >= 1)
-
-print(courses.index('Java9'))
-print(courses)
+if value in courses:
+    print('El indice es: ' + str(courses.index(value)))
+else:
+    print('El valor no existe en la lista.')
