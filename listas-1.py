@@ -10,7 +10,5 @@ courses.extend(new_courses)
 
 value = 'Java9'
 
-if value in courses:
-    print('El indice es: ' + str(courses.index(value)))
-else:
-    print('El valor no existe en la lista.')
+courses.clear()
+print(courses)
