@@ -2,5 +2,8 @@
 
 settings = ('localhost', 3306, 'root', 'password', 'database')
 
-print (len(settings))
-print (type(settings))
+print ( len(settings) )
+
+sub_setting = settings[2:]
+
+print (sub_setting)
