@@ -2,6 +2,12 @@
 
 settings = ('localhost', 3306, 'root', 'password', 'database')
 
-host, *_, password, database = settings
+tuples = (
+    (1, 2, 3),
+    (4, 5, 6),
+    (7, 8, 9)
+)
 
-print(host, password, database)
+for _tuple in tuples:
+    print(_tuple)
+    
