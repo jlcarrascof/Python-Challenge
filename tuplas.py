@@ -2,6 +2,6 @@
 
 settings = ('localhost', 3306, 'root', 'password', 'database')
 
-host, port, *_ = settings
+host, *_, password, database = settings
 
-print(host, port)
+print(host, password, database)
