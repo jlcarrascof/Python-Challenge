@@ -8,6 +8,6 @@ tuples = (
     (7, 8, 9)
 )
 
-for _tuple in tuples:
-    for number in _tuple:
-        print(number)
+for number1, number2, number3 in tuples:
+    print(number1, number2, number3)
+    
