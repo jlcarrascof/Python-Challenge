@@ -9,5 +9,5 @@ tuples = (
 )
 
 for _tuple in tuples:
-    print(_tuple)
-    
+    for number in _tuple:
+        print(number)
