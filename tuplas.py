@@ -9,5 +9,5 @@ user = {
 }
 
 print(
-    list(user.keys()),
+    tuple(user.keys()),
 )
