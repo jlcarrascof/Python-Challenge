@@ -11,4 +11,4 @@ user = {
     (1, 2, 3): 'Tupla'
 }
 
-print(user)
+print(user [ (1, 2, 3) ])
