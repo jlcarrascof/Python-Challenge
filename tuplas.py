@@ -8,5 +8,6 @@ user = {
     'active': True, 
 }
 
-value = user.get('username', 'No existe la llave')
-print(value)
+print(
+    user.keys(),
+)
