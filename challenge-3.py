@@ -1,6 +1,7 @@
-# CodigoFacilito Challenge 2: Registro de usuarios
+# CodigoFacilito Challenge 3: Registro de usuarios con ID usando listas
 
 num_users = int(input('¿Cuántos nuevos usuarios se pretenden registrar? '))
+user_ids = []
 
 # Itera sobre el número de usuarios a registrar
 for i in range(0, num_users):
@@ -39,3 +40,9 @@ for i in range(0, num_users):
             print('El correo electrónico debe tener entre 5 y 50 caracteres.')
 
     print('Hola ' + first_name + ' ' + last_name, ' en breve recibirás un correo a ' + email + '.')
+    
+    # Genera un identificador único para el usuario y lo añade a la lista
+    user_ids.append(i+1)
+
+# Imprime la lista de identificadores de usuario
+print("Los identificadores de los usuarios registrados son:", user_ids)
