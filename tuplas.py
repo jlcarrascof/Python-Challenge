@@ -8,5 +8,5 @@ user = {
     'active': True, 
 }
 
-value = user['username'] 
+value = user.get('username', 'No existe la llave')
 print(value)
