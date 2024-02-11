@@ -8,5 +8,5 @@ user = {
     'active': True, 
 }
 
-value = user.get('username')
+value = user['username'] 
 print(value)
