@@ -8,6 +8,5 @@ user = {
     'active': True, 
 }
 
-if 'name' in user:
-    print('La llave "name" existe en el diccionario')
-    print(user['name'])
+value = user.get('username')
+print(value)
