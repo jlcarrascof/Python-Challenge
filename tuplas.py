@@ -9,6 +9,5 @@ user = {
     'active': True, 
 }
 
-print(
-    tuple(user.items()),
-)
+for key, value in tuple(user.items()):
+    print(key, value)
