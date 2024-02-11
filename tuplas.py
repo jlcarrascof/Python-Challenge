@@ -9,5 +9,5 @@ user = {
 }
 
 print(
-    user.keys(),
+    user.values(),
 )
