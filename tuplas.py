@@ -1,5 +1,6 @@
 # Tuplas - Diccionarios.
 # Llave != String - Llaves = Objetos inmutables (String, Enteros, Flotantes, Bool, Tuplas)
+# keys() - values() - items()
 
 user = {
     'name': 'Cody',
@@ -9,5 +10,5 @@ user = {
 }
 
 print(
-    tuple(user.keys()),
+    user.items(),
 )
