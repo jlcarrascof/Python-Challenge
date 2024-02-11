@@ -10,5 +10,5 @@ user = {
 }
 
 print(
-    user.items(),
+    tuple(user.items()),
 )
